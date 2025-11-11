@@ -313,3 +313,25 @@ nvtop
 ---
 
 **Last Updated:** _YYYY-MM-DD HH:MM_
+
+---
+**Evaluation Completed - 2025-11-10 20:04:17**
+
+### Model A: Context-Only (fdangolo/flan-t5-context-only)
+- EM-Total: 47.23%
+- F1-Total: 58.93%
+- EM-Conflict: 42.03%
+- F1-Conflict: 53.41%
+- EM-Non-Conflict: 49.01%
+- F1-Non-Conflict: 60.81%
+
+### Model B: Explain-and-Answer (fdangolo/flan-t5-exp-ans)
+- EM-Total: 0.62%
+- F1-Total: 13.72%
+- EM-Conflict: 0.0%
+- F1-Conflict: 12.19%
+- EM-Non-Conflict: 0.83%
+- F1-Non-Conflict: 14.24%
+
+Environment: Local (VS Code)
+Evaluated on: 813 test examples
